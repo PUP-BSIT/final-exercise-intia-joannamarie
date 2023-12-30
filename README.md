@@ -1,5 +1,5 @@
-# Joanna Intia Final Exercise
+# Joanna Mari Intia Final Exercise
 
-Hello! Here's my Github Repository for Final Exercise
+Good day! Here's my Github Repository for Final Exercise.
 
-[Link Here](https://app.netlify.com)
+[Link Here](intia-joannamarie.netlify.app)
