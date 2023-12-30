@@ -1,5 +1,5 @@
 body {
-    background-color: #F5F5DC; 
+    background: linear-gradient(45deg, #F5F5DC, #F0E68C);
 }
 
 h1, 
@@ -9,19 +9,19 @@ h2 {
 }
 
 h1 {
-    background: rgb(181, 193, 218);
+    background: linear-gradient(45deg, #B5C1DA, #4F6FB1);
     color: white;
-    padding: 15px 0;
+    padding: 15px 20px;
     border-radius: 20px;
     margin: 0;
 }
 
 h2 {
-    background: rgb(255, 244, 182);
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif; 
-    padding: 10px 10px;
+    background: linear-gradient(45deg, #FFF4B6, #F8E887);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 15px 20px;
     border-radius: 15px;
-    vertical-align: top;
+    margin-bottom: 20px;
     color: #5c5b4e;
 }
 
@@ -30,12 +30,14 @@ li {
     font-size: 16px;
     font-weight: bold;
     color: #53532f;
+    margin-bottom: 8px;
 }
 
 p {
     font-family: Arial;
     font-size: 13px;
     color: #4e4e47;
+    margin-bottom: 15px;
 }
 
 .section-container {
@@ -55,16 +57,33 @@ p {
 }
 
 .testimonials, 
-.gallery, 
-.my-goals,
-.journal,
+.gallery,
+.my-goals, 
 .comments {
     background-color: #f3f3f3;
-    text-align: center;
     padding: 10px;
     margin: 15px;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+}
+
+.testimonials p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.journal {
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) 
+}
+
+.journal p {
+    font-size: 15px;
+    font-family: Arial;
+    line-height: 140%;
 }
 
 .section-gallery {
@@ -90,13 +109,14 @@ p {
     margin-left: 40px;
     font-family: Arial;
     color: #4e4e47;
-    padding: 10px;
+    padding: 30px;
     background-color: #d6deff;
     padding: 20px;
     width: calc(30% - 30px);
     margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #b2bff0, #c2cef2);
 }
 
 .button {
